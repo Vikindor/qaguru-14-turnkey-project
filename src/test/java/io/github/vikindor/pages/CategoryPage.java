@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class CategoryPage {
 
     private final SelenideElement sortSelector = $("[class^=SelectableList_wrap]");
-    private final ElementsCollection sortDropdown = $$("[class^=SelectableList_list]");
+    private final ElementsCollection sortDropdown = $$("[class^=SelectableList_li_]");
     private final ElementsCollection cards = $$("[class^=Card_wrap]");
     private final String sortingCheap = "Сначала с низкой ценой";
     private final String sortingExpensive = "Сначала дорогие";
@@ -26,15 +26,6 @@ public class CategoryPage {
 
     public CategoryCard getCard(int cardNumber) {
         return new CategoryCard(cards.get(cardNumber));
-    }
-
-    public CategoryPage sortByPopular() {
-        if (!sortSelector.has(text(sortingPopular))) {
-            sortSelector.click();
-            sortDropdown.findBy(text(sortingPopular)).click();
-            getCard(0).shouldHavePrice();
-        }
-        return this;
     }
 
     public CategoryPage sortByPriceAsc() {
@@ -53,4 +44,12 @@ public class CategoryPage {
         return this;
     }
 
+    public CategoryPage sortByPopular() {
+        if (!sortSelector.has(text(sortingPopular))) {
+            sortSelector.click();
+            sortDropdown.findBy(text(sortingPopular)).click();
+            getCard(0).shouldHavePrice();
+        }
+        return this;
+    }
 }

@@ -29,6 +29,7 @@ public class MainPageTests extends TestBase {
     @Feature("Контакты")
     @DisplayName("Проверка отображения номеров телефонов и ФОС")
     void shouldCheckContactsTest() {
+
         step("Открыть главную страницу", () -> {
             mainPage.openPage();
         });
@@ -48,13 +49,14 @@ public class MainPageTests extends TestBase {
     @Tag("UI") @Tag("High") @Tag("Regression")
     @Feature("Поиск")
     @DisplayName("Быстрый поиск показывает популярные товары")
-    @ParameterizedTest(name = "Итерация {index}: ищет {0} ожидает {1}")
+    @ParameterizedTest(name = "Запуск {index}: ищем \"{0}\" ожидаем \"{1}\"")
     @CsvSource({
             "айфон,Apple iPhone",
             "интел,Intel Core",
             "видеокарты,NVIDIA GeForce RTX"
     })
     void shouldCheckPopularSuggestionsTest(String query, String suggested) {
+
         step("Открыть главную страницу", () -> {
             mainPage.openPage();
         });

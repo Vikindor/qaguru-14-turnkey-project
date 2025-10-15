@@ -18,7 +18,7 @@ public class CategoryCard {
     }
 
     private SelenideElement price() {
-        return root.$("[class^=Price_price]");
+        return root.$("[class^=CardPrice_wrap_]").$("[class^=Price_price]");
     }
 
     public int getPrice() {

@@ -17,6 +17,7 @@ public class Error404PageTests extends TestBase {
     @Test
     @DisplayName("Открытие страницы 404 и возврат на главную")
     void shouldDisplayNotFoundPageAndNavigateHome() {
+
         step("Открыть несуществующую страницу", () -> {
             open("/blablabla");
         });
