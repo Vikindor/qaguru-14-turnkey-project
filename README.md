@@ -14,18 +14,18 @@
 ## 💻 Использованный стек технологий
 
 <p align="center">
-  <a href="https://www.jetbrains.com/idea/"><img width="6%" src="media/logos/IntelliJ_IDEA.png" alt="IntelliJ IDEA logo" title="IntelliJ IDEA"/></a>
-  <a href="https://gradle.org/"><img width="6%" src="media/logos/Gradle.png" alt="Gradle logo" title="Gradle"/></a>
-  <a href="https://www.java.com/"><img width="6%" src="media/logos/Java.png" alt="Java logo" title="Java"/></a>
-  <a href="https://selenide.org/"><img width="6%" src="media/logos/Selenide.png" alt="Selenide logo" title="Selenide"/></a>
-  <a href="https://junit.org/"><img width="6%" src="media/logos/JUnit5.png" alt="JUnit5 logo" title="JUnit5"/></a>
-  <a href="https://github.com/"><img width="6%" src="media/logos/GitHub.png" alt="GitHub logo" title="GitHub"/></a>
-  <a href="https://aerokube.com/selenoid/latest/"><img width="6%" src="media/logos/Selenoid.png" alt="Selenoid logo" title="Selenoid"/></a>
-  <a href="https://qameta.io/"><img width="6%" src="media/logos/Allure_Report.png" alt="Allure Report logo" title="Allure Report"/></a>
-  <a href="https://www.jenkins.io/"><img width="6%" src="media/logos/Jenkins.png" alt="Jenkins logo" title="Jenkins"/></a>
-  <a href="https://telegram.org/"><img width="6%" src="media/logos/Telegram.png" alt="Telegram logo" title="Telegram"/></a>
-  <a href="https://qameta.io/"><img width="6%" src="media/logos/Allure_TestOps.png" alt="Allure TestOps logo" title="Allure TestOps"/></a>
-  <a href="https://www.atlassian.com/software/jira"><img width="6%" src="media/logos/Atlassian_Jira.png" alt="Atlassian Jira logo" title="Atlassian Jira"/></a>
+  <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/IntelliJ_IDEA.png" alt="IntelliJ IDEA logo" title="IntelliJ IDEA"/></a>
+  <a href="https://gradle.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Gradle.png" alt="Gradle logo" title="Gradle"/></a>
+  <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Java.png" alt="Java logo" title="Java"/></a>
+  <a href="https://selenide.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Selenide.png" alt="Selenide logo" title="Selenide"/></a>
+  <a href="https://junit.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/JUnit5.png" alt="JUnit5 logo" title="JUnit5"/></a>
+  <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/GitHub.png" alt="GitHub logo" title="GitHub"/></a>
+  <a href="https://aerokube.com/selenoid/latest/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Selenoid.png" alt="Selenoid logo" title="Selenoid"/></a>
+  <a href="https://qameta.io/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Allure_Report.png" alt="Allure Report logo" title="Allure Report"/></a>
+  <a href="https://www.jenkins.io/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Jenkins.png" alt="Jenkins logo" title="Jenkins"/></a>
+  <a href="https://telegram.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Telegram.png" alt="Telegram logo" title="Telegram"/></a>
+  <a href="https://qameta.io/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Allure_TestOps.png" alt="Allure TestOps logo" title="Allure TestOps"/></a>
+  <a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/Atlassian_Jira.png" alt="Atlassian Jira logo" title="Atlassian Jira"/></a>
 </p>
 
 - В данном проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>Selenide</code>.
@@ -35,7 +35,7 @@
 - Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием <code>Allure Report</code> и отправкой результатов в <code>Telegram</code> при помощи бота. 
 - Осуществлена интеграция с <code>Allure TestOps</code> и <code>Jira</code>
 
-Содержание Allure-отчета:
+Содержание Allure-отчёта:
 * Шаги теста;
 * Скриншот страницы на последнем шаге;
 * Page Source;
@@ -119,7 +119,7 @@ allureReport
 
 ## <img width="4%" src="media/logos/Selenoid.png" alt="Selenoid logo" title="Selenoid"/> Видео примера запуска тестов в Selenoid
 
-К каждому тесту в отчете прилагается видео прогона.
+К каждому тесту в отчёте прилагается видео прогона.
 
 <p align="center">
 <img src="media/screenshots/Selenoid_recording.gif" alt="Selenoid recording gif" title="Selenoid recording"/>
