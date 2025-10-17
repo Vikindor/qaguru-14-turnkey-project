@@ -17,7 +17,6 @@ dependencies {
     testImplementation("com.codeborne:selenide:7.10.1")
     testImplementation(platform("org.junit:junit-bom:6.0.0-M2"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    testImplementation("net.datafaker:datafaker:2.5.1")
     testImplementation("io.qameta.allure:allure-selenide:2.30.0")
     allureRawResultElements(files(layout.buildDirectory.dir("allure-results")))
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
