@@ -74,12 +74,12 @@ allureReport
 * <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>128.0</code>.
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По умолчанию: 1920x1080.
 
-## <img width="4%" src="media/logos/Jenkins.png" alt="Jenkins logo" title="Jenkins"/> Сборка в Jenkins
+## <img width="4%" src="media/logos/jenkins.png" alt="Jenkins logo" title="Jenkins"/> Сборка в Jenkins
 <p align="center">
 <img width="100%" src="media/screenshots/jenkins_job.png" alt="Jenkins Job screenshot" title="Jenkins Job"/>
 </p>
 
-## <img width="4%" src="media/logos/Allure_Report.png" alt="Allure Report logo" title="Allure Report"/> Пример Allure отчёта
+## <img width="4%" src="media/logos/allure_report.png" alt="Allure Report logo" title="Allure Report"/> Пример Allure отчёта
 
 ### Overview
 
@@ -93,7 +93,7 @@ allureReport
 <img width="100%" src="media/screenshots/allure_report_2.png" alt="Allure test results screenshot" title="Allure test results"/>
 </p>
 
-## <img width="4%" src="media/logos/Allure_TestOps.png" alt="Allure TestOps logo" title="Allure TestOps"/> Интеграция с Allure TestOps
+## <img width="4%" src="media/logos/allure_testops.png" alt="Allure TestOps logo" title="Allure TestOps"/> Интеграция с Allure TestOps
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>.
@@ -103,7 +103,7 @@ allureReport
 <img width="100%" src="media/screenshots/allure_testops_run.png" alt="Allure TestOps screenshot" title="Allure TestOps"/>
 </p>
 
-## <img width="4%" src="media/logos/Atlassian_Jira.png" alt="Atlassian Jira logo" title="Atlassian Jira"/> Интеграция с Jira
+## <img width="4%" src="media/logos/atlassian_jira.png" alt="Atlassian Jira logo" title="Atlassian Jira"/> Интеграция с Jira
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>.
 
@@ -111,7 +111,7 @@ allureReport
 <img width="100%" src="media/screenshots/jira_task.png" alt="Jira screenshot" title="Jira"/>
 </p>
 
-## <img width="4%" src="media/logos/Telegram.png" alt="Telegram logo" title="Telegram"/> Уведомления в Telegram с использованием бота
+## <img width="4%" src="media/logos/telegram.png" alt="Telegram logo" title="Telegram"/> Уведомления в Telegram с использованием бота
 
 После завершения сборки бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
@@ -119,7 +119,7 @@ allureReport
 <img width="100%" src="media/screenshots/telegram_notification.png" alt="Telegram notification screenshot" title="Telegram notification"/>
 </p>
 
-## <img width="4%" src="media/logos/Selenoid.png" alt="Selenoid logo" title="Selenoid"/> Видео примера запуска тестов в Selenoid
+## <img width="4%" src="media/logos/selenoid.png" alt="Selenoid logo" title="Selenoid"/> Видео примера запуска тестов в Selenoid
 
 К каждому тесту в отчёте прилагается видео прогона.
 
