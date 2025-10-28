@@ -116,7 +116,7 @@ allureReport
 После завершения сборки бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с результатом.
 
 <p align="center">
-<img width="100%" src="media/screenshots/telegram_notification.png" alt="Telegram notification screenshot" title="Telegram notification"/>
+<img src="media/screenshots/telegram_notification.png" alt="Telegram notification screenshot" title="Telegram notification"/>
 </p>
 
 ## <img width="4%" src="media/logos/selenoid.png" alt="Selenoid logo" title="Selenoid"/> Видео примера запуска тестов в Selenoid
