@@ -13,9 +13,9 @@ public class Error404PageTests extends TestBase {
 
     Error404Page error404Page = new Error404Page();
 
-    @Tag("UI") @Tag("Medium") @Tag("Regression")
     @Test
     @DisplayName("Открытие страницы 404 и возврат на главную")
+    @Tag("UI") @Tag("Medium") @Tag("Regression")
     void shouldDisplayNotFoundPageAndNavigateHome() {
 
         step("Открыть несуществующую страницу", () -> {

@@ -18,10 +18,10 @@ public class CategoryPageTests extends TestBase {
     CategoryPage categoryPage = new CategoryPage();
     String category = "/1001/processory";
 
-    @Tag("UI") @Tag("Critical") @Tag("Smoke") @Tag("Sanity") @Tag("Regression")
     @Test
     @Feature("Сортировка")
     @DisplayName("Сортировка товаров по цене по возрастанию")
+    @Tag("UI") @Tag("Critical") @Tag("Smoke") @Tag("Sanity") @Tag("Regression")
     void shouldCheckSortByPriceAscendingTest() {
 
         step("Открыть страницу категории товаров", () -> {
@@ -36,10 +36,10 @@ public class CategoryPageTests extends TestBase {
         });
     }
 
-    @Tag("UI") @Tag("Critical") @Tag("Smoke") @Tag("Sanity") @Tag("Regression")
     @Test
     @Feature("Сортировка")
     @DisplayName("Сортировка товаров по цене по убыванию")
+    @Tag("UI") @Tag("Critical") @Tag("Smoke") @Tag("Sanity") @Tag("Regression")
     void shouldCheckSortByPriceDescendingTest() {
 
         step("Открыть страницу категории товаров", () -> {
@@ -54,10 +54,10 @@ public class CategoryPageTests extends TestBase {
         });
     }
 
-    @Tag("UI") @Tag("High") @Tag("Smoke") @Tag("Sanity") @Tag("Regression")
     @Test
     @Feature("Сортировка")
     @DisplayName("Сортировка товаров по популярности")
+    @Tag("UI") @Tag("High") @Tag("Smoke") @Tag("Sanity") @Tag("Regression")
     void shouldCheckSortByPopularTest() {
 
         step("Открыть страницу категории товаров", () -> {

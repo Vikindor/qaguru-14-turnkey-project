@@ -24,10 +24,10 @@ public class MainPageTests extends TestBase {
     FooterComponent footer = new FooterComponent();
     CallBackModal modal = new CallBackModal();
 
-    @Tag("UI") @Tag("Critical") @Tag("Sanity") @Tag("Regression")
     @Test
     @Feature("Контакты")
     @DisplayName("Проверка отображения номеров телефонов и ФОС")
+    @Tag("UI") @Tag("Critical") @Tag("Sanity") @Tag("Regression")
     void shouldCheckContactsTest() {
 
         step("Открыть главную страницу", () -> {
@@ -46,9 +46,9 @@ public class MainPageTests extends TestBase {
         });
     }
 
-    @Tag("UI") @Tag("High") @Tag("Regression")
     @Feature("Поиск")
     @DisplayName("Быстрый поиск показывает популярные товары")
+    @Tag("UI") @Tag("High") @Tag("Regression")
     @ParameterizedTest(name = "Запуск {index}: ищем \"{0}\" ожидаем \"{1}\"")
     @CsvSource({
             "айфон,Apple iPhone",
