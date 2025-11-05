@@ -74,12 +74,12 @@ allureReport
 * <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>128.0</code>.
 * <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По умолчанию: 1920x1080.
 
-## <img width="4%" src="media/logos/jenkins.png" alt="Jenkins logo" title="Jenkins"/> Сборка в Jenkins
+## <a href="https://jenkins.autotests.cloud/job/037-vikindor-lesson12_turnkey_project/" target="_blank" rel="noopener noreferrer"><img width="4%" src="media/logos/jenkins.png" alt="Jenkins logo" title="Jenkins"/> Сборка в Jenkins</a>
 <p align="center">
 <img width="100%" src="media/screenshots/jenkins_job.png" alt="Jenkins Job screenshot" title="Jenkins Job"/>
 </p>
 
-## <img width="4%" src="media/logos/allure_report.png" alt="Allure Report logo" title="Allure Report"/> Пример Allure отчёта
+## <a href="https://jenkins.autotests.cloud/job/037-vikindor-lesson12_turnkey_project/8/allure/" target="_blank" rel="noopener noreferrer"><img width="4%" src="media/logos/allure_report.png" alt="Allure Report logo" title="Allure Report"/> Пример Allure отчёта</a>
 
 ### Overview
 
@@ -93,7 +93,7 @@ allureReport
 <img width="100%" src="media/screenshots/allure_report_2.png" alt="Allure test results screenshot" title="Allure test results"/>
 </p>
 
-## <img width="4%" src="media/logos/allure_testops.png" alt="Allure TestOps logo" title="Allure TestOps"/> Интеграция с Allure TestOps
+## <a href="https://allure.autotests.cloud/launch/49345" target="_blank" rel="noopener noreferrer"><img width="4%" src="media/logos/allure_testops.png" alt="Allure TestOps logo" title="Allure TestOps"/> Интеграция с Allure TestOps</a>
 
 Выполнена интеграция сборки <code>Jenkins</code> с <code>Allure TestOps</code>.
 Результат выполнения автотестов отображается в <code>Allure TestOps</code>.
@@ -103,7 +103,7 @@ allureReport
 <img width="100%" src="media/screenshots/allure_testops_run.png" alt="Allure TestOps screenshot" title="Allure TestOps"/>
 </p>
 
-## <img width="4%" src="media/logos/atlassian_jira.png" alt="Atlassian Jira logo" title="Atlassian Jira"/> Интеграция с Jira
+## <a href="https://jira.autotests.cloud/browse/HOMEWORK-1512" target="_blank" rel="noopener noreferrer"><img width="4%" src="media/logos/atlassian_jira.png" alt="Atlassian Jira logo" title="Atlassian Jira"/> Интеграция с Jira</a>
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>.
 
