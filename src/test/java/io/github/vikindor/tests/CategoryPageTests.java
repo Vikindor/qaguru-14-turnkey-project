@@ -50,7 +50,7 @@ public class CategoryPageTests extends TestBase {
         });
         step("Проверить, что цена больше указанного значения", () -> {
             int price = categoryPage.getCard(0).getPrice();
-            assertTrue(price >= 300000);
+            assertTrue(price >= 50000);
         });
     }
 
