@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     testImplementation("com.codeborne:selenide:7.12.2")
-    testImplementation(platform("org.junit:junit-bom:6.0.0-M2"))
+    testImplementation(platform("org.junit:junit-bom:6.0.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("io.qameta.allure:allure-selenide:2.31.0")
     allureRawResultElements(files(layout.buildDirectory.dir("allure-results")))
