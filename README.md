@@ -20,7 +20,7 @@
   <a href="https://gradle.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/gradle.png" alt="Gradle logo" title="Gradle"/></a>
   <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/java.png" alt="Java logo" title="Java"/></a>
   <a href="https://selenide.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/selenide.png" alt="Selenide logo" title="Selenide"/></a>
-  <a href="https://junit.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/junit5.png" alt="JUnit5 logo" title="JUnit5"/></a>
+  <a href="https://junit.org/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/junit.png" alt="JUnit logo" title="JUnit"/></a>
   <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/github.png" alt="GitHub logo" title="GitHub"/></a>
   <a href="https://aerokube.com/selenoid/latest/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/selenoid.png" alt="Selenoid logo" title="Selenoid"/></a>
   <a href="https://qameta.io/" target="_blank" rel="noopener noreferrer"><img width="6%" src="media/logos/allure_report.png" alt="Allure Report logo" title="Allure Report"/></a>
@@ -32,7 +32,7 @@
 
 - В данном проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>Selenide</code>.
 - В качестве сборщика был использован - <code>Gradle</code>.  
-- Использованы фреймворки <code>JUnit 5</code> и <code>Selenide</code>.
+- Использованы фреймворки <code>JUnit</code> и <code>Selenide</code>.
 - При прогоне тестов браузер запускается в <code>Selenoid</code>.
 - Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием <code>Allure Report</code> и отправкой результатов в <code>Telegram</code> при помощи бота. 
 - Осуществлена интеграция с <code>Allure TestOps</code> и <code>Jira</code>
