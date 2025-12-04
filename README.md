@@ -31,11 +31,11 @@
 </p>
 
 - В данном проекте автотесты написаны на языке <code>Java</code> с использованием фреймворка для тестирования <code>Selenide</code>.
-- В качестве сборщика был использован - <code>Gradle</code>.  
+- В качестве сборщика был использован <code>Gradle</code>.  
 - Использованы фреймворки <code>JUnit</code> и <code>Selenide</code>.
 - При прогоне тестов браузер запускается в <code>Selenoid</code>.
 - Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием <code>Allure Report</code> и отправкой результатов в <code>Telegram</code> при помощи бота. 
-- Осуществлена интеграция с <code>Allure TestOps</code> и <code>Jira</code>
+- Осуществлена интеграция с <code>Allure TestOps</code> и <code>Jira</code>.
 
 Содержание Allure-отчёта:
 * Шаги теста;
@@ -69,10 +69,10 @@ allureReport
 
 ### Параметры сборки
 
-* <code>SELENOID_URL</code> - ссылка на Selenoid. По умолчанию: <code>selenoid.autotests.cloud</code>.
+* <code>SELENOID_URL</code> - ссылка на Selenoid. По умолчанию: <code>https://(username):(password)@selenoid.autotests.cloud/wd/hub</code>.
 * <code>BROWSER</code> – браузер, в котором будут выполняться тесты. По-умолчанию: <code>chrome</code>.
-* <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию - <code>128.0</code>.
-* <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По умолчанию: 1920x1080.
+* <code>BROWSER_VERSION</code> – версия браузера, в которой будут выполняться тесты. По-умолчанию: <code>128.0</code>.
+* <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты. По умолчанию: <code>1920x1080</code>.
 
 ## <a href="https://jenkins.autotests.cloud/job/037-vikindor-lesson12_turnkey_project/" target="_blank" rel="noopener noreferrer"><img width="4%" src="media/logos/jenkins.png" alt="Jenkins logo" title="Jenkins"/> Сборка в Jenkins</a>
 <p align="center">
@@ -121,7 +121,7 @@ allureReport
 
 ## <img width="4%" src="media/logos/selenoid.png" alt="Selenoid logo" title="Selenoid"/> Видео примера запуска тестов в Selenoid
 
-К каждому тесту в отчёте прилагается видео прогона.
+К каждому тесту в отчёте прилагается видео выполнения.
 
 <p align="center">
 <img width="100%" src="media/screenshots/selenoid_recording.gif" alt="Selenoid recording gif" title="Selenoid recording"/>
