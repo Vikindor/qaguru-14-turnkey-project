@@ -7,10 +7,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.TestInfo;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.lang.reflect.Method;
 import java.util.*;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
@@ -40,13 +38,11 @@ public class TestBase {
     }
 
     @AfterEach
-    void addAttachments(TestInfo testInfo) {
-        String methodName = testInfo.getTestMethod().map(Method::getName).get();
-
-        Attach.screenshotAs("Screenshot_" + methodName);
+    void addAttachments() {
+        Attach.screenshot();
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        Attach.addVideo();
+        Attach.video();
 
         closeWebDriver();
     }
