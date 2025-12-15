@@ -27,7 +27,7 @@ public class CategoryPageTests extends TestBase {
         step("Открыть страницу категории товаров", () -> {
             categoryPage.openPage(category);
         });
-        step("Отсортировать по популярности", () -> {
+        step("Отсортировать по возрастанию", () -> {
             categoryPage.sortByPriceAsc();
         });
         step("Проверить, что цена меньше указанного значения", () -> {
@@ -45,7 +45,7 @@ public class CategoryPageTests extends TestBase {
         step("Открыть страницу категории товаров", () -> {
             categoryPage.openPage(category);
         });
-        step("Отсортировать по популярности", () -> {
+        step("Отсортировать по убыванию", () -> {
             categoryPage.sortByPriceDesc();
         });
         step("Проверить, что цена больше указанного значения", () -> {
