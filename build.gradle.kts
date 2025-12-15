@@ -14,9 +14,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.codeborne:selenide:7.12.2")
     testImplementation(platform("org.junit:junit-bom:6.0.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation("com.codeborne:selenide:7.13.0")
     testImplementation("io.qameta.allure:allure-selenide:2.31.0")
     allureRawResultElements(files(layout.buildDirectory.dir("allure-results")))
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -25,7 +25,7 @@ dependencies {
 
 allure {
     report {
-        version.set("2.35.1") // allure-framework/allure2
+        version.set("2.36.0") // allure-framework/allure2
     }
     adapter {
         autoconfigure.set(true)
